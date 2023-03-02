@@ -1,5 +1,5 @@
 <h1> Instagram Login Clone :computer: </h1>
-<h3>Project developed during the <a href="https://plataforma.devclub.com.br/auth/login?redirect=/">DevClub</a> course.</h3>
+<h3>Project developed during the <a href="https://rodolfomori.com.br/devclub/">DevClub</a> course.</h3>
 
 <br>
 
