@@ -1,156 +1,130 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: #FAFAFA;
-    /* Altera o fundo da página*/
-    width: 100vw;
-    /*Largura da página */
-    height: 100vh;
-    /*Altura da página*/
-    display: flex;
-    /*Especifica o tipo de caixa de renderização*/
-    justify-content: center;
-    /*Alinhar os elementos*/
-    align-items: center;
-    /*Controlam o alinhamento dos nossos itens no eixo transversal*/
-
-
+  background: #fafafa;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
 }
 
 .insta-logo {
-    width: 150px;
-    margin: auto;
-    cursor: pointer;
+  width: 150px;
+  margin: auto;
+  cursor: pointer;
 }
 
-.container-imagens{
-    position: relative;
+.container-imagens {
+  position: relative;
 }
 
 .img-celular {
-
-    width: 450px;
-    /*Largura da imagem*/
+  width: 450px;
 }
 
-.imagem-celular{
-    height: 520px;
-    position: absolute;
-    left: 153px;
-    top: 26px;
-    transition: opacity 2s ease-in-out;
-
+.imagem-celular {
+  height: 520px;
+  position: absolute;
+  left: 153px;
+  top: 26px;
+  transition: opacity 2s ease-in-out;
 }
 
 .container-itens {
-    width: 350px;
-
+  width: 350px;
 }
 
 .container-form {
-    display: flex;
-    /*Exibição*/
-    flex-direction: column;
-    /*Permite alterar a direção na qual os elementos flex serão exibidos*/
-    border: 1px solid #dbdbdb;
-    /*Declarar os valores para as propriedades das bordas*/
-    background: #ffffff;
-    padding: 50px 40px 20px 40px;
-    /*Distância entre o conteúdo e as bordas*/
-
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dbdbdb;
+  background: #ffffff;
+  padding: 50px 40px 20px 40px;
 }
 
 input {
-    height: 36px;
-    /*Altura do elemento*/
-    outline: none;
-    /*Sem marcação nas linhas quando clicar*/
-    border: 1px solid #dbdbdb;
-    /*Propriedades das bordas*/
-    border-radius: 3px;
-    /*Arredondar a borda*/
-    padding-left: 5px;
-    /*Distância da margem da esquerda dentro do input*/
-    margin-top: 5px;
-    /*Distância da margem de cima dentro do input*/
-    color: #262626;
-    /*Cor do texto*/
+  height: 36px;
+  outline: none;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  padding-left: 5px;
+  margin-top: 5px;
+  color: #262626;
 }
 
 button {
-    background: #0095f6;
-    height: 30px;
-    border-radius: 3px;
-    border: none;
-    color: #ffffff;
-    margin-top: 20px;
-    cursor: pointer;
+  background: #0095f6;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  margin-top: 20px;
+  cursor: pointer;
 }
 
 .login-facebook {
-    color: #385185;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  color: #385185;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
 }
 
 .esqueceu-senha {
-    color: #385185;
-    text-align: center;
-    cursor: pointer;
-    font-size: 12px;
-    /*Tamanho da fonte*/
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-
+  color: #385185;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  /*Tamanho da fonte*/
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
 }
 
-.container-cadastro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    border: 1px solid #dbdbdb;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-
+.container-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #dbdbdb;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.link-cadastro{
-    color: #0095f6;
-    font-weight: bold;
-    font-size: 14px;
-    margin-left: 5px;
-    cursor: pointer;
-
+.link-cadastro {
+  color: #0095f6;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 5px;
+  cursor: pointer;
 }
 
-.paragrafo-conta{
-    font-size: 14px;
+.paragrafo-conta {
+  font-size: 14px;
 }
 
-.paragrafo-app{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+.paragrafo-app {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.container-app{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+.container-app {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
-.logo-app{
-    width: 150px;
-    cursor: pointer;
-
+.logo-app {
+  width: 150px;
+  cursor: pointer;
 }
