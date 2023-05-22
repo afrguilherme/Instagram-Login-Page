@@ -14,6 +14,10 @@
 
 <br>
 
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript-logo"/>
+
+<br>
+
 <h2>Preview:</h2>
 
 <img src="https://github.com/augustogafr122/Instagram-Clone/blob/master/img/InstagramMockup.png?raw=true"/>
