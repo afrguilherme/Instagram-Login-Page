@@ -1,4 +1,4 @@
-<h1> Instagram Login Clone :computer: </h1>
+<h1> Instagram Login Page :computer: </h1>
 <h3>Project developed during the <a href="https://rodolfomori.com.br/devclub/">DevClub</a> course.</h3>
 
 <br>
@@ -15,6 +15,10 @@
 <br>
 
 - <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript-logo"/>
+
+<br>
+
+<h3><a href="https://afrguilherme.github.io/Instagram-Login-Page">Deploy Here! 👈</a></h3>
 
 <br>
 
