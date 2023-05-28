@@ -9,7 +9,6 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  gap: 150px;
   justify-content: center;
   align-items: center;
 }
