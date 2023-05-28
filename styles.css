@@ -128,3 +128,9 @@ button {
   width: 150px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+  .container-imagens {
+    display: none;
+  }
+}
